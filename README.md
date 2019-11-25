@@ -5,7 +5,7 @@
 |id|string|null: false|
 |email|string|null: false|
 |password|string|null: false|
-|user|string|null: false|
+|name|string|null: false|
 ### Association
 - has_many :groups, through: :group_users
 - has_many :messages
